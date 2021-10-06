@@ -1,0 +1,136 @@
+/*Product Slider*/
+
+#product-slider {
+	background: #F1F1F1;
+	padding-top: 41px;
+	padding-bottom: 66px;
+}
+
+#product-slider .slick-dots {
+	display: none !important;
+}
+
+.main {
+	width: 94%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 7px;
+}
+
+.product-slide {
+	transition: .3s ease-in-out;
+	background: #fff;
+	font-size: 36px;
+	line-height: 100px;
+	margin: 39px;
+	height: 356px;
+	border-radius: 16px;
+	position: relative;
+	text-align: center;
+}
+
+.product-img1 {
+	position: relative;
+	top: 33px;
+	height: 205px;
+	width: 100%;
+}
+
+.product-img1 img {
+	display: block;
+	margin: auto;
+	margin-top: 26px;
+	height: 100%;
+}
+
+.line1 {
+	height: 1px;
+	background-color: #DDDDDD;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.slide-name {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 170.68%;
+	color: #898989;
+}
+
+.slide-detail {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10.88px;
+	line-height: 170.68%;
+	color: #979797;
+}
+
+.slide-content2 {
+	display: none;
+}
+
+.product-slide:hover .slide-content1 {
+	display: none;
+}
+
+.product-slide:hover .slide-content2 {
+	display: block;
+	position: relative;
+	top: -16px;
+	left: -9px
+}
+
+.product-img2 {
+	height: 378px;
+	width: 100%;
+}
+
+.btn:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.slide-btn {
+	position: absolute;
+	bottom: 28px;
+	background: #FFFFFF;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13.88px;
+	line-height: 170.68%;
+	border: none;
+	outline: none;
+	padding: 6px 28px;
+	color: #747474;
+	left: 50%;
+	transform: translateX(-37%);
+}
+
+.slide-btn:hover {
+	background: #EAAE00;
+	box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.25);
+	color: #FFFFFF;
+	transition: .3s ease-in-out;
+}
+
+.slick-prev:before {
+	font-family: "Material Icons";
+	content: "\e5e0";
+	font-size: 38px;
+	color: #727272;
+	opacity: 1;
+}
+
+.slick-next:before {
+	font-family: "Material Icons";
+	content: "\e5e1";
+	font-size: 38px;
+	color: #727272;
+	opacity: 1;
+}
