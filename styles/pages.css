@@ -436,7 +436,7 @@
 }
 
 .span1 {
-	font-family: Open Sans;
+	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 21.6px;
@@ -486,4 +486,72 @@
 	height: 227px;
 	margin-top: -22px;
 	margin-bottom: 18px;
+}
+/*Section8*/
+#section8{
+	padding-top: 40px;
+	padding-bottom: 172px;
+}
+.comments{
+margin-top: 50px;
+}
+.comment-box{
+	position: relative;
+	background: #FFFFFF;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+.comment-box::before{
+	content: url(../uploads/images/“.png);
+	position: absolute;
+	left: 30px;
+	top: 20px;
+}
+.comment-content{
+	font-family: "Open Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 12.25px;
+line-height: 170.68%;
+/* or 21px */
+padding: 54px 13px 3px 30px;
+
+color: #000000;
+}
+.comment-images{
+	position: relative;
+}
+.comment-img1{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.comment-img2{
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+	z-index: 2;
+
+}
+.name{
+	font-family: "Open Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 21.25px;
+line-height: 170.68%;
+color: #000000;
+z-index: 5;
+text-align: center;
+}
+.position{
+position: absolute;
+margin: auto;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13.6px;
+	line-height: 170.68%;
+	color: #000000;
+	text-align: center;
+	z-index: 5;
 }
