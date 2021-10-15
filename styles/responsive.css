@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1420px) and (min-width: 1190px) {
+  .about-text {
+    width: 38%;
+    position: absolute;
+    top: 48px;
+  }
+  .about-text h1 {
+    font-size: 55px;
+  }
+  .about-text p {
+    font-size: 22px;
+  }
+  .image3 {
+    width: 18%;
+    transform: translateX(-8%);
+  }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1421px) {
+  .about-text {
+    width: 38%;
+    position: absolute;
+    top: 74px;
+  }
+  .about-text h1 {
+    font-size: 66px;
+  }
+  .about-text p {
+    font-size: 26px;
+  }
+  .image3 {
+    width: 18%;
+    transform: translateX(9%);
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .about-text {
+    width: 33%;
+    top: 120px;
+  }
+  .image3 {
+    bottom: 120px;
+    transform: translateX(50%);
+  }
+}
+@media only screen and (min-width: 2100px) {
+  .about-text {
+    top: 135px;
+  }
+  .image3 {
+    bottom: 170px;
+    transform: translateX(80%);
+  }
+}
