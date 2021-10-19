@@ -191,3 +191,13 @@ main{
 .footer-logo {
 	margin-top: 23px;
 }
+#footer li:hover a{
+	font-weight: 600;
+font-size: 20px;
+transition: .25s ease-in-out;
+
+}
+#footer li:hover{
+	margin-bottom: -5px;
+	padding-bottom: -5px;
+}
