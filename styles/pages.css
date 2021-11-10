@@ -100,6 +100,10 @@
   line-height: 170.68%;
   /* or 48px */
   color: #5c5b5c;
+  text-align: left;
+}
+#section3 .section3-title:nth-child(2){
+  text-align: right !important;
 }
 
 .section3-content {
@@ -641,7 +645,10 @@
 }
 /*Contact Page*/
 #contact-us {
-  padding: 155px 0;
+  padding-bottom: 155px;
+}
+.mt-150{
+  margin-top: 150px;
 }
 .contact-header {
   font-family: "Open Sans";
@@ -1053,7 +1060,8 @@ textarea:valid + label {
   margin-bottom: 22px;
 }
 .specification-contact {
-  margin-top: -120px;
+  margin-top: 40px;
+  /* padding-bottom: 150px; */
 }
 #prices .chosen-container,
 .specification-contact .chosen-container {
@@ -1205,7 +1213,7 @@ textarea:valid + label {
 }
 /*Products*/
 #products {
-  padding: 66px 0 150px;
+  padding: 139px 0 180px;
 }
 a {
   text-decoration: none !important;
@@ -1364,6 +1372,17 @@ table tbody td:last-child {
   border-right: 2px solid #f0c113;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+tbody tr:hover{
+  transition: .3s ease-in-out;
+  /* background: #F0C113; */
+box-shadow: 0px 0px 6px #F0C113;
+}
+tbody tr:hover td{
+  transition: .3s ease-in-out;
+  background: #F0C113;
+  color: #fff;
+/* box-shadow: 0px 0px 6px #F0C113; */
 }
 /*Categories*/
 #categories {

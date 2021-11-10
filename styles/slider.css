@@ -23,10 +23,11 @@
   font-size: 36px;
   line-height: 100px;
   margin: 39px;
-  height: 356px;
+  height: 356px; 
   border-radius: 16px;
   position: relative;
   text-align: center;
+  
 }
 
 .product-img1 {
