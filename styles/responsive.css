@@ -52,13 +52,22 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  #header {
+    height: 53px;
+  }
+  #header .logo {
+    margin-top: 11px;
+  }
+  #header .lang {
+    margin-top: 18px;
+  }
   .sm-0 {
     padding: 0;
   }
   .header-menu,
   .login,
   .image3,
-  #footer {
+  .footer-icons {
     display: none;
   }
   .about-text {
@@ -71,7 +80,6 @@
     padding: 0 15px;
   }
   .about-text p,
-  #product-slider .title1,
   #section2 .title1 {
     display: none;
   }
@@ -129,9 +137,14 @@
     height: auto;
     margin-bottom: 12px;
   }
-  .section3-title {
+  .section3-title,
+  #product-slider .title1,
+  .contact-header {
     font-size: 19px;
     line-height: 170.68%;
+  }
+  .section3-title1 {
+    text-align: left;
   }
   .section3-content {
     font-size: 13px;
@@ -150,9 +163,22 @@
   #section4 #dealer {
     padding-bottom: 48px;
   }
-  #section4 .chosen-container {
+  #section4 select {
     height: 56px !important;
-    margin-bottom: 33px;
+    margin-bottom: 19px;
+    width: 100% !important;
+    line-height: 56px;
+    outline: none;
+    padding-left: 9px;
+    background: #fff !important;
+    border: none !important;
+    position: relative;
+    font-size: 19px;
+    line-height: 170.68%;
+    /* or 32px */
+
+    border-radius: 10px;
+    color: #bcbcbc;
   }
   #section4 .find-btn {
     margin-top: 10px;
@@ -160,7 +186,8 @@
   #section5 {
     padding: 50px 0;
   }
-  #section5 .title1 {
+  #section5 .title1,
+  .title2 {
     font-size: 19px;
     line-height: 170.68%;
   }
@@ -199,38 +226,191 @@
     font-size: 28px;
     line-height: 120.68%;
   }
-  .section6-text p{
+  .section6-text p {
     font-size: 13px;
-line-height: 170.68%;
-margin-top: 0;
+    line-height: 170.68%;
+    margin-top: 0;
   }
-  #section7{
+  #section6 .span1 {
+    font-size: 12.6px;
+    line-height: 170.68%;
+  }
+  #section7 {
     padding-top: 20px;
     height: auto;
     padding-bottom: 20px;
   }
-  #section7 .title1,#section8 .title1{
+  #section7 .title1,
+  #section8 .title1,
+  #section9 .title1 {
     font-size: 19px;
-line-height: 170.68%;
+    line-height: 170.68%;
   }
-#section7 .mt-80{
-  margin-top: 20px;
+  #section7 .mt-80 {
+    margin-top: 20px;
+  }
+  .section7-icon {
+    width: 68px;
+    height: 68px;
+  }
+  .section7-text {
+    font-size: 14.25px;
+    line-height: 170.68%;
+  }
+  #section8 .owl-prev,
+  #section8 .owl-next {
+    display: block;
+  }
+  .owl-carousel .owl-prev {
+    left: 0;
+  }
+  .owl-carousel .owl-next {
+    right: 0;
+  }
+  #section9 .owl-carousel .owl-item {
+    text-align: center;
+  }
+  .comment-box {
+    height: 291px;
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .comment-box::before {
+    left: 12px;
+    top: 10px;
+  }
+  .comment-content {
+    font-size: 7.9px;
+    line-height: 170.68%;
+    padding: 32px 9px 20px 12px;
+  }
+  #section8 .owl-carousel .owl-next,
+  #section8 .owl-carousel .owl-prev {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .comment-img2 {
+    top: -12px;
+    width: 55px !important;
+  }
+  #section8 .name {
+    font-size: 14.25px;
+    line-height: 170.68%;
+    top: 47px;
+  }
+  #section8 .position {
+    font-size: 9.6px;
+    line-height: 170.68%;
+    top: 68px;
+  }
+  .testimonials {
+    padding-top: 20px;
+  }
+  #customers-testimonials .item {
+    margin-bottom: 65px;
+  }
+  #footer {
+    padding-top: 0;
+  }
+  .footer-menu {
+    margin-top: 34px;
+    border-bottom: 1px solid #fff;
+  }
+  .footer-menu ul {
+    display: block;
+  }
+  .footer-menu li {
+    margin-bottom: 25px;
+  }
+  .footer-logo {
+    margin: 85px auto 29px auto;
+    width: 95px;
+  }
+  .logo {
+    width: 95px;
+  }
+  .footer-logo img,
+  .logo img {
+    width: 100%;
+  }
+  /*About Us*/
+  .index-bg .main-bg {
+    width: 100%;
+  }
+  #what-we-do {
+    margin-top: 43px;
+  }
+  .line {
+    display: none;
+  }
+  .title2 {
+    margin-bottom: 7px;
+  }
+  #what-we-do .content1,
+  #section10 .content1 {
+    font-size: 10px;
+    line-height: 170.68%;
+  }
+  #section10 {
+    padding-top: 32px;
+    padding-bottom: 33px;
+  }
+  #section10 .image {
+    margin-right: 10px;
+  }
+  #section10 .overlay-right {
+    right: 0;
+    top: -10px;
+  }
+  #what-we-do .image {
+    margin-left: 10px;
+  }
+  #what-we-do .overlay-left {
+    left: 0;
+    top: -10px;
+  }
+  #section11 {
+    margin-top: 32px;
+    padding: 37px 0px;
+  }
+  .section-11-title,
+  .section-11-content {
+    display: none;
+  }
+  /*Contact*/
+  #contact-us {
+    margin-top: 34px;
+    padding-bottom: 52px;
+  }
+  .contact-content {
+    font-size: 10px;
+    line-height: 170.68%;
+  }
+  .contact-address,.address-detail{
+    font-size: 19px;
+    line-height: 121.18%;
+  }
+  .formfield > label{
+    font-size: 15px;
+    line-height: 0;
+  }
+  .formfield > input{
+    margin-bottom: 13px;
+    height: 41px;
+  }
+  .formfield > textarea{
+    height: 100px;
+    margin-bottom: 23px;
+  }
+  input:focus + label,
+input:valid + label,
+textarea:focus + label,
+textarea:valid + label {
+  font-size: 12px;
 }
-.section7-icon{
-  width: 68px;
-  height: 68px;
-}
-.section7-text{
-  font-size: 14.25px;
-line-height: 170.68%;
-}
-#section9 .owl-carousel .owl-prev {
-  left: 0;
-}
-#section9 .owl-carousel .owl-next {
-  right:  0;
-}
-#section9 .owl-carousel .owl-item{
-  text-align: center;
+#send-btn{
+  height: 41px;
+  font-size: 19.36px;
 }
 }

@@ -136,6 +136,9 @@
   opacity: 1;
 }
 /*slider two*/
+.owl-carousel .owl-item img{
+  /* width: auto !important; */
+}
 .testimonials {
   position: relative;
   padding-top: 37px;
