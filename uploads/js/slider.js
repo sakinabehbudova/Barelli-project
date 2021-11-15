@@ -41,42 +41,6 @@ $('a[data-slide]').click(function (e) {
 
 
 
-
-
-// $('.responsive').slick({
-//     dots: true,
-//     infinite: false,
-//     speed: 300,
-//     slidesToShow: 4,
-//     slidesToScroll: 4,
-//     responsive: [
-//       {
-//         breakpoint: 1024,
-//         settings: {
-//           slidesToShow: 3,
-//           slidesToScroll: 3,
-//           infinite: true,
-//           dots: true
-//         }
-//       },
-//       {
-//         breakpoint: 600,
-//         settings: {
-//           slidesToShow: 2,
-//           slidesToScroll: 2
-//         }
-//       },
-//       {
-//         breakpoint: 480,
-//         settings: {
-//           slidesToShow: 1,
-//           slidesToScroll: 1
-//         }
-//       }
-
-//     ]
-//   });
-
 /*slider two*/
 
 jQuery(document).ready(function ($) {
@@ -125,7 +89,7 @@ jQuery(document).ready(function ($) {
         items: 1
       },
       768: {
-        items: 2
+        items: 3
       },
       1170: {
         items: 5

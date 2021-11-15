@@ -1,9 +1,7 @@
 .mb-38 {
   margin-bottom: 38px;
 }
-.mt-50 {
-  margin-top: 50px;
-}
+
 .mt-64 {
   margin-top: 64px;
 }
@@ -781,11 +779,16 @@ textarea:valid + label {
   color: #5c5b5c;
 }
 .news {
-  height: 390px;
-  position: relative;
+  /* height: 390px; */
+  /* position: relative; */
 }
+
 .news img {
   width: 100%;
+  /* position: relative; */
+}
+.news-img{
+  position: relative;
 }
 .news-text {
   position: absolute;
@@ -822,17 +825,20 @@ textarea:valid + label {
   color: #ffffff;
 }
 .news1 {
-  height: 130px;
+  /* height: 130px; */
   position: relative;
-  margin-bottom: 64px;
+  margin-bottom: 20px;
 }
 .news1 img {
   width: 100%;
 }
+.news-img1{
+  position: relative;
+}
 .news-text1 {
   position: absolute;
   left: 10px;
-  bottom: -41px;
+  bottom: 17px;
   right: 10px;
 }
 .text3 {
@@ -1168,7 +1174,8 @@ textarea:valid + label {
 }
 #products-detail ul li {
   margin-left: 39px;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
+  margin-bottom: 5px;
 }
 .product-detail ul li,
 #products-detail ul li {
@@ -1176,7 +1183,8 @@ textarea:valid + label {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 22.02px;
+  /* font-size: 22.02px; */
+  font-size: 20.02px;
   line-height: 170.68%;
   /* or 38px */
 
@@ -1233,6 +1241,7 @@ a {
   display: block;
   margin: auto;
   height: 100%;
+  max-width: 100%;
 }
 .product .slide-name,
 .product .slide-detail {
@@ -1267,7 +1276,8 @@ a {
 #products-detail ul {
   padding: 0;
   list-style-type: none;
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  margin-top: 5px;
   margin-bottom: 33px;
 }
 .btn2 {
@@ -1388,7 +1398,7 @@ tbody tr:hover td{
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 800;
-  font-size: 32px;
+  font-size: 23px;
   line-height: 170.68%;
   /* identical to box height, or 55px */
   text-transform: uppercase;
@@ -1442,5 +1452,8 @@ tbody tr:hover td{
   }
   .mt-150{
     margin-top: 150px;
+  }
+  .mt-50 {
+    margin-top: 50px;
   }
 }
