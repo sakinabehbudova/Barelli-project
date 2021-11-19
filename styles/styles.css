@@ -1,5 +1,6 @@
 main {
   flex: 0;
+  /* z-index: -999; */
 }
 body {
   display: flex;
@@ -12,6 +13,8 @@ body {
   height: 90px;
   background: #4a494a;
   opacity: 0.9;
+  /* position: fixed;
+  width: 100%; */
 }
 
 #header .logo {
@@ -137,6 +140,62 @@ body {
   text-align: center;
 }
 
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 53px;
+  right: 0;
+  background: #4A494A;
+  opacity: 0.9;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170.68%;
+  /* or 34px */
+  
+  
+  color: #FFFFFF;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
 /*Footer*/
 
 #footer {
@@ -202,3 +261,5 @@ body {
     /* padding-bottom: -5px;  */
   }
 }
+
+

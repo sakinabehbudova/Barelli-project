@@ -54,6 +54,9 @@
 @media only screen and (max-width: 768px) {
   #header {
     height: 53px;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
   }
   #header .logo {
     margin-top: 11px;
