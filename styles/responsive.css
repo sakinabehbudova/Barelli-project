@@ -66,6 +66,7 @@
   }
   #header select {
     appearance: none !important;
+    -webkit-appearance: none !important;
     line-height: 136.68% !important;
   }
   .sm-0 {
@@ -146,7 +147,10 @@
   }
   .section3-title,
   #product-slider .title1,
-  .contact-header,.news-header,.service-title{
+  .contact-header,
+  .news-header,
+  .service-title,
+  .prices-title {
     font-size: 19px;
     line-height: 170.68%;
   }
@@ -343,7 +347,7 @@
     width: 100%;
   }
   /*About Us*/
-  .index-bg{
+  .index-bg {
     margin-top: 53px;
   }
   .index-bg .main-bg {
@@ -353,7 +357,7 @@
     margin-top: 43px;
   }
   .overlay-left img,
-  .overlay-right img{
+  .overlay-right img {
     width: 188px;
   }
   .line {
@@ -402,122 +406,227 @@
     font-size: 10px;
     line-height: 170.68%;
   }
-  .contact-address,.address-detail{
+  .contact-address,
+  .address-detail {
     font-size: 19px;
     line-height: 121.18%;
   }
-  .formfield > label{
+  .formfield > label {
     font-size: 15px;
     line-height: 0;
   }
-  .formfield > input{
+  .formfield > input {
     margin-bottom: 13px;
     height: 41px;
   }
-  .formfield > textarea{
+  .formfield > textarea {
     height: 100px;
     margin-bottom: 23px;
   }
   input:focus + label,
-input:valid + label,
-textarea:focus + label,
-textarea:valid + label {
-  font-size: 12px;
-}
-#send-btn{
-  height: 41px;
-  font-size: 19.36px;
-}
-/*News*/
-#news{
-  padding-top: 20px;
-  padding-bottom: 55px;
-}
-.news{
-  margin-bottom: 12px;
-}
-.text1{
-  font-size: 19px;
-}
-.text2{
-  font-size: 14px;
-}
-.text3{
-  font-size: 11px;
-}
-.text4{
-  font-size: 8px;
-}
-
-.news-date,.news-date1{
-display: none;
-}
-.news-text{
-  left: 12px;
+  input:valid + label,
+  textarea:focus + label,
+  textarea:valid + label {
+    font-size: 12px;
+  }
+  #send-btn {
+    height: 41px;
+    font-size: 19.36px;
+  }
+  /*News*/
+  #news {
+    padding-top: 20px;
+    padding-bottom: 55px;
+  }
+  .news {
+    margin-bottom: 12px;
+  }
+  .text1 {
+    font-size: 19px;
+  }
+  .text2 {
+    font-size: 14px;
+  }
+  .text3 {
+    font-size: 11px;
+  }
+  .text4 {
+    font-size: 8px;
+  }
+  #news-detail {
+    padding-top: 84px;
+    padding-bottom: 18px;
+  }
+  .news-date,
+  .news-date1 {
+    display: none;
+  }
+  .news-text {
+    left: 12px;
     bottom: 34px;
-}
-.news-text1{
-left: 5px;
-right: 12px;
-}
-.seeMore{
-  margin-top: 30px;
-  padding: 9px 33px;
-  font-size: 14.83px;
-}
-.mt-sm-30{
-  margin-top: 30px;
-}
-/*Service*/
-.service-title{
-  margin: 30px 0 22px;
-}
-.service{
-  width: 100%;
-  height: 105px;
-}
-.top-left{
-  width: 40px;
-  height: 40px;
-  left: 12px;
-}
-.top-left-inner{
-  width: 35px;
-  height: 35px;
-}
-.top-left-inner span{
-  font-size: 19px;
-}
-.service img{
-  width: 55%;
-}
-.service-name{
-  font-size: 15px;
-}
-#find-service{
-  padding-bottom: 34px;
-}
-.location{
-  font-size: 18px;
-line-height: 113.68%;
-}
-#location{
-  padding: 0;
-}
-#location .col-md-7{
-  padding: 0;
-  margin-bottom: 25px;
-}
-.mapouter,.gmap_canvas{
-  height: 365px !important;
-}
-.dealers-text{
-  font-weight: normal;
-font-size: 10px;
-line-height: 170.68%;
-margin-top: 30px;
-}
-#contact-us-dealer{
-  padding: 35px;
-}
+  }
+  .news-text1 {
+    left: 5px;
+    right: 12px;
+  }
+  .seeMore {
+    margin-top: 30px;
+    padding: 9px 33px;
+    font-size: 14.83px;
+  }
+  .mt-sm-30 {
+    margin-top: 30px;
+  }
+  .news-detail-img {
+    margin: 0;
+    float: none;
+  }
+  .date1-row {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .date1-row img {
+    width: 5%;
+  }
+  .date1 {
+    font-size: 15px;
+    margin-top: 3px;
+  }
+  .news-detail-title {
+    font-size: 25.83px;
+  }
+  .news-detail-text {
+    font-weight: normal;
+    font-size: 13.88px;
+    line-height: 167.68%;
+  }
+  /*Service*/
+  #service {
+    padding-bottom: 20px;
+  }
+  .service-title {
+    margin: 30px 0 22px;
+  }
+  .service {
+    width: 100%;
+    height: 105px;
+  }
+  .top-left {
+    width: 40px;
+    height: 40px;
+    left: 12px;
+  }
+  .top-left-inner {
+    width: 35px;
+    height: 35px;
+  }
+  .top-left-inner span {
+    font-size: 19px;
+  }
+  .service img {
+    width: 55%;
+  }
+  .service-name {
+    font-size: 15px;
+  }
+  #find-service {
+    padding-bottom: 34px;
+  }
+  .location {
+    font-size: 18px;
+    line-height: 113.68%;
+  }
+  #location {
+    padding: 0;
+  }
+  #location .col-md-7 {
+    padding: 0;
+    margin-bottom: 25px;
+  }
+  .mapouter,
+  .gmap_canvas {
+    height: 365px !important;
+  }
+  .dealers-text {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 170.68%;
+    margin-top: 30px;
+  }
+  #contact-us-dealer {
+    padding: 35px;
+  }
+  /*Categories*/
+  #categories {
+    padding: 0;
+    padding-top: 85px;
+  }
+  /*Prices*/
+  #prices {
+    padding: 25px 0 23px;
+  }
+  #product-box {
+    padding-bottom: 0;
+  }
+  #prices-slider .item {
+    width: 100%;
+  }
+  #prices-slider .box2 {
+    width: 70%;
+  }
+  .product-box {
+    height: 190px;
+  }
+  #prices-slider img {
+    top: 36px;
+    width: 20%;
+  }
+  #prices-slider .product-name {
+    font-size: 12.02px;
+    top: 59px;
+  }
+  #prices-slider .price {
+    font-size: 24px;
+    top: 86px;
+  }
+  #prices-slider .btn5 {
+    font-size: 9.5px;
+    bottom: 27px;
+    padding: 3px 5px;
+  }
+  #prices-slider .product-detail ul li:before {
+    left: 31px;
+  }
+  #prices-slider .product-detail ul li {
+    font-size: 13.02px;
+  }
+  #prices-slider .owl-next {
+    right: -25px !important;
+    top: 33%;
+  }
+  #prices-slider .owl-prev {
+    left: -15px !important;
+    top: 33%;
+  }
+  #prices select {
+    background: #ffffff;
+    border: 1px solid #605f5f;
+    width: 100%;
+    border-radius: 6px;
+    height: 42px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 170.68%;
+    /* or 24px */
+
+    padding-left: 10px;
+    color: #bcbcbc;
+    outline: none;
+  }
+  #prices .find-btn {
+    height: 37px;
+  }
+  #prices .find-btn::before {
+    font-size: 28px;
+  }
 }

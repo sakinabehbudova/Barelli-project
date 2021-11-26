@@ -97,3 +97,30 @@ jQuery(document).ready(function ($) {
     }
   });
 });
+/*Slider 4*/
+jQuery(document).ready(function ($) {
+  "use strict";
+  $('#prices-slider').owlCarousel({
+    loop: true,
+    center: true,
+    items: 5,
+    margin: 30,
+    autoplay: true,
+    dots: true,
+    nav: true,
+    autoplayTimeout: 8500,
+    smartSpeed: 450,
+    navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 3
+      },
+      1170: {
+        items: 5
+      }
+    }
+  });
+});
